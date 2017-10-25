@@ -3,8 +3,8 @@
 
 	var routeConfig = function($routeProvider){
     	$routeProvider
-    	.when("/main",{templateUrl:"main.html",controller:"MainController"})
-    	.otherwise({redirectTo:"/main"});
+    	.when("/",{templateUrl:"main.html",controller:"MainController"})
+    	.otherwise({redirectTo:"/"});
   	}
 	
 	app.config(routeConfig);
