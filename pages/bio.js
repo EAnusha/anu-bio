@@ -17,7 +17,7 @@ var BioController = function($scope) {
 		if($scope.displayBio==$scope.shortBio) {
 			$scope.displayBio = $scope.fullBio;
 			$scope.displayBioButton = "Show Less";
-		};
+		}
 		else if ($scope.displayBio==$scope.fullBio) {
 			$scope.displayBio = $scope.shortBio;
 			$scope.displayBioButton = "Show More";
