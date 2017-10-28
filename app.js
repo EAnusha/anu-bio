@@ -9,6 +9,6 @@ var app = angular.module('app',['ngRoute']);
   	}
 	
 	app.config(routeConfig);
-	//21
+	//22
   
 }());
