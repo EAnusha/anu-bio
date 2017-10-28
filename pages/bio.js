@@ -14,13 +14,6 @@ var BioController = function($scope) {
 	};
 
 	$scope.isHide = function(clickAction){
-		/*if(currentBioState=="less" && clickAction=="more") {
-			return false;
-		}
-		
-		if(currentBioState=="more" && clickAction=="less") {
-			return false;
-		}*/
 		if(currentBioState!=clickAction) {
 			return false;
 		}
