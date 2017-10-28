@@ -8,6 +8,7 @@ div.bio-content {
 }
 
 a
+{
 	cursor: pointer;
 	text-decoration: underline;
 	font-weight: bold;
