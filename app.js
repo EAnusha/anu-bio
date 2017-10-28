@@ -4,8 +4,8 @@ var app = angular.module('app',['ngRoute']);
 
 	var routeConfig = function($routeProvider){
     	$routeProvider
-    	.when("/main",{templateUrl:"/pages/main.html"})
-    	.otherwise({redirectTo:"/main"});
+    	.when("/bio",{templateUrl:"/pages/bio.html"})
+    	.otherwise({redirectTo:"/bio"});
   	}
 	
 	app.config(routeConfig);
