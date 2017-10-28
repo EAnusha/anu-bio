@@ -1,7 +1,11 @@
 
-  section.bio {
+section.bio {
   	color: red;
-  }
+}
+
+div.bio-content {
+    color: purple;		
+}
 
 .more {
 	cursor: pointer;
