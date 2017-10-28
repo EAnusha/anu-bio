@@ -1,5 +1,8 @@
 
   #bioStyle {color: red;}
  	a {
-    text-decoration: underline;
+ 		cursor: auto;
+    	text-decoration: underline;
+    	font-weight: bold;
+    	color: blue;
 	}
