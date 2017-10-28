@@ -1,8 +1,11 @@
 
-  #bioStyle {color: red;}
- 	a {
- 		cursor: pointer;
-    	text-decoration: underline;
-    	font-weight: bold;
-    	color: blue;
-	}
+  section.bio {
+  	color: red;
+  }
+
+a {
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+	color: blue;
+}
