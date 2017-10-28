@@ -1,7 +1,7 @@
 
   #bioStyle {color: red;}
  	a {
- 		cursor: auto;
+ 		cursor: pointer;
     	text-decoration: underline;
     	font-weight: bold;
     	color: blue;
