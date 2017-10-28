@@ -12,7 +12,11 @@ var BioController = function($scope) {
 
 	$scope.bioClickMore = function(){
       $scope.desc = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is to excel in Front End web development. Currently focusing on learning Angular framework";
-      $scope.desc = "less";
+      $scope.less = "less";
+	};
+
+	$scope.bioClickLess = function(){
+      $scope.desc = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is";
 	};
 };
 
