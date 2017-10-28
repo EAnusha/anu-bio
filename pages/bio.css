@@ -7,9 +7,11 @@ div.bio-content {
     color: purple;		
 }
 
-.more {
+a
 	cursor: pointer;
 	text-decoration: underline;
 	font-weight: bold;
 	color: green;
+
 }
+
