@@ -1,15 +1,10 @@
 
 section.bio {
-  	color: red;
+  	/*color: red;*/
 }
 
 div.bio-content {
-    color: purple;		
+    color: purple;
+    text-align: center;
 }
 
-a {
-	cursor: pointer;
-	text-decoration: underline;
-	font-weight: bold;
-	color: blue;
-}

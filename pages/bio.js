@@ -10,10 +10,6 @@ var BioController = function($scope) {
 	};
 };
 
-app.controller("BioController",BioController);
-
-
-
 
 
 //module.exports = MainController;
