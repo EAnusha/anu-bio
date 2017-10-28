@@ -21,15 +21,7 @@ var BioController = function($scope) {
 	}
 };
 
-<<<<<<< HEAD
-=======
-
 app.controller("BioController",BioController);
-
-
-
->>>>>>> dc59288462d5f5ec30787e24aad43a7f4580468b
-
 
 //module.exports = MainController;
 //to excel in Front End web development. Currently focusing on learning Angular framework.."

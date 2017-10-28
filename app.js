@@ -10,7 +10,5 @@ var app = angular.module('app',['ngRoute']);
 	
 	app.config(routeConfig);
 
-	app.controller("BioController",BioController);
-
 //41
 }());
