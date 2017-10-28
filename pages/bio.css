@@ -1,2 +1,5 @@
 
   #bioStyle {color: red;}
+  a:link {
+    text-decoration: underline;
+}
