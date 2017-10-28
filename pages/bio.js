@@ -1,7 +1,7 @@
 var BioController = function($scope) {
 	
-	$scope.shortBio = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is";
-	$scope.fullBio = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is to excel in Front End web development. Currently focusing on learning Angular framework";
+	var shortBio = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is";
+	var fullBio = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is to excel in Front End web development. Currently focusing on learning Angular framework";
 	$scope.displayBio = shortBio;
 	$scope.displayBioButton = "Show More";
 
@@ -14,12 +14,12 @@ var BioController = function($scope) {
 	};*/
 
 	$scope.bioToggle = function() {
-		if($scope.displayBio==$scope.shortBio) {
-			$scope.displayBio = $scope.fullBio;
+		if($scope.displayBio==shortBio) {
+			$scope.displayBio = fullBio;
 			$scope.displayBioButton = "Show Less";
 		}
-		else if ($scope.displayBio==$scope.fullBio) {
-			$scope.displayBio = $scope.shortBio;
+		else if ($scope.displayBio==fullBio) {
+			$scope.displayBio = shortBio;
 			$scope.displayBioButton = "Show More";
 		};
 
