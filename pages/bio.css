@@ -7,12 +7,3 @@ div.bio-content {
     color: purple;
     text-align: center;
 }
-
-a
-{
-	cursor: pointer;
-	text-decoration: underline;
-	font-weight: bold;
-	color: green;
-
-}
