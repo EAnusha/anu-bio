@@ -1,6 +1,6 @@
 var BioController = function($scope) {
 	
-	$scope.desc = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is" <a href="">more<a>;
+	$scope.desc = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is";
 };
 
 app.controller("BioController",BioController);
