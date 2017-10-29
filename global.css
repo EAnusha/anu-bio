@@ -6,9 +6,8 @@ a {
 }
 
 .app {
-	background-image: url(images/bk.jpg);
 	background-size: cover;
-	background-opacity: 0.5;
+	background-image: url(images/bk2.jpg);
 	background-color: darkgrey;
 	font-color: white;
 	font-size: 14px;
