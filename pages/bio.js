@@ -1,5 +1,20 @@
 var BioController = function($scope) {
 	
+	$scope.shortBio = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is to excel in Front End web development. Currently focusing on learning Angular framework";
+
+	$scope.myProfile = function(){
+      $scope.desc = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is to excel in Front End web development. Currently focusing on learning Angular framework";
+      currentBioState= "more"
+	};
+
+};
+
+app.controller("BioController",BioController);
+
+/*
+
+var BioController = function($scope) {
+	
 	$scope.desc = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is ...";
 	currentBioState= "less";
 
@@ -22,6 +37,6 @@ var BioController = function($scope) {
 };
 
 app.controller("BioController",BioController);
-
+*/
 //module.exports = MainController;
 //to excel in Front End web development. Currently focusing on learning Angular framework.."
