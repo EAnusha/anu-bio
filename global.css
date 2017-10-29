@@ -6,9 +6,11 @@ a {
 }
 
 .app {
+	background-image: url(images/bk.jpg);
+	background-size: cover;
 	background-color: darkgrey;
 	font-color: white;
 	font-size: 14px;
 	font-family: monospace;
-	font-weight: bold; 
+	font-weight: bold;
 }
