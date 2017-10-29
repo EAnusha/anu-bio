@@ -1,7 +1,7 @@
 var BioController = function($scope) {
 	
 	$scope.intro = "I'm Anusha.";
-	$scope.introTag = "I learn. I grow. I contribute. I share.";
+	$scope.introTag = "An aspriring web developer.";
     $scope.shortBio = "Hello! Thanks for visiting my webpage.I am Anusha. I am a learner. My passion is to excel in Front End web development. Currently focusing on learning Angular framework";
 
 	$scope.myProfile = function(){
