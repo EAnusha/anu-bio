@@ -3,6 +3,14 @@ section.bio {
   	/*color: red;*/
 }
 
+p.intro {
+
+}
+
+p.introTag {
+	font-family: "Work sans";
+}
+
 div.bio-content {
 	/*background-image: url(../images/bk.jpg);
 	background-size: cover;*/
