@@ -1,8 +1,12 @@
 <section class="bio">
 	<div ng-controller="BioController" class="bio-content">
-		{{shortBio}}
-		<a ng-href="" ng-click="myProfile()">More about my profile ..</a>
-		
+		<p ng-bind="intro"></p>
+		<p ng-bind="introTag"></p>
+		<div>
+			<p ng-bind="shortBio"></p>
+			<a ng-href="" ng-click="myProfile()">More about my profile ..</a>
+		</div>
+
 	</div>
 </section>
 
