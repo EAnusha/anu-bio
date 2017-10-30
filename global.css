@@ -9,13 +9,14 @@ a {
 	background-size: cover;
 	background-image: url(images/bk2.jpg);
 	background-color: darkgrey;
-	font-color: white;
+	color: white;
 	font-size: 14px;
 	font-family: monospace;
 	font-weight: bold;
 }
 
 .home {
-	font-color: white;
+	text-align: center;
+	color: white;
 	font-size: 30px;
 }
