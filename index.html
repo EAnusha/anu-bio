@@ -6,14 +6,36 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 <script src="app.js"></script>
 <script src="pages/bio.js"></script>
+<script src="pages/apps.js"></script>
+<script src="pages/blog.js"></script>
+<script src="pages/helpfullinks.js"></script>
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
 <link rel="stylesheet" type="text/css" href="global.css">
 <link rel="stylesheet" type="text/css" href="pages/bio.css">
+<link rel="stylesheet" type="text/css" href="pages/apps.css">
+<link rel="stylesheet" type="text/css" href="pages/blog.css">
+<link rel="stylesheet" type="text/css" href="pages/helpfullinks.css">
+
 </head>
 
 <body class="app">
 	<div ng-view class="container-fluid"></div>
+		<!-- FOOTER -->
+	<div >
+		<section>
+			<div ng-controller="MainController">
+				<p ng-bind="intro"></p>
+				<p ng-bind="introTag" class="styleIntroTag"></p>
+			</div>
+			<div>
+				<button class="btn btn-block btn-primary" ng-href="/bio">BIO</button>
+				<button class="btn btn-block btn-primary" ng-click="/apps">APPS</button>
+				<button class="btn btn-block btn-primary" ng-click="/blog">BLOG</button>
+				<button class="btn btn-block btn-primary" ng-click="/helpfullinks">HELPFUL LINKS</button>	
+			</div>
+		</section>
+	</div>
 </body>
 
 </html>
