@@ -9,7 +9,7 @@ var app = angular.module('app',['ngRoute']);
     	.when("/apps",{templateUrl:"/pages/apps.html"})
     	.when("/helpfullinks",{templateUrl:"/pages/helpfullinks.html"})
     	.when("/blog",{templateUrl:"/pages/blog.html"})
-    	.otherwise({redirectTo:"/main"});
+    	.otherwise({redirectTo:"/bio"});
   	}
 	
 	app.config(routeConfig);
