@@ -14,3 +14,8 @@ a {
 	font-family: monospace;
 	font-weight: bold;
 }
+
+div.home {
+	font-color: white;
+	font-size: 30px;
+}
