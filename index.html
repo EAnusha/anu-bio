@@ -38,7 +38,7 @@
 			<nav id="myNavbarMain" class="navbar navbar-default">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarItems">
+			      <button id="navButton" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarItems">
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>                        
@@ -47,7 +47,7 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbarItems">
 			      <ul class="nav navbar-nav">
-			        <li><a id="myNavbarItem" ng-click="collapse" data-target="#myNavbarItems" href="/#!/profile">PROFILE</a></li>
+			        <li><a id="myNavbarItem" ng-click="navButton" href="/#!/profile">PROFILE</a></li>
 			        <li><a id="myNavbarItem" data-toggle="collapse" data-target="#myNavbarItems" href="/#!/apps">APPS</a></li>
 			        <li><a id="myNavbarItem" data-toggle="collapse" data-target="#myNavbarItems" href="/#!/blog">BLOG</a></li>
 			       	<li><a id="myNavbarItem" data-toggle="collapse" data-target="#myNavbarItems" href="/#!/helpfullinks">HELPFUL LINKS</a></li>
