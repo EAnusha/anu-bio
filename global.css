@@ -1,14 +1,14 @@
-a {
+/*a {
 	cursor: pointer;
 	text-decoration: underline;
 	font-weight: bold;
 	color: #237c53;
-}
+}*/
 
 .app {
 	/*background-size: cover;
 	background-image: url(images/bk2.jpg);*/
-	background-color: #482a20;
+	background-color: #7aeae5;
 	color: white;
 	font-size: 14px;
 	font-family: monospace;
@@ -22,3 +22,8 @@ a {
 }
 
 .nowrap{white-space: nowrap;}
+
+.styleNavbar {
+	background-color: 39887d;
+	color: white;
+}
