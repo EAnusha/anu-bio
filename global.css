@@ -24,6 +24,7 @@
 .nowrap{white-space: nowrap;}
 
 .styleNavbar {
-	background-color: 39887d;
+	background-color: #39887d;
+	border-color: #39887d;
 	color: white;
 }
