@@ -1,7 +1,10 @@
 var app = angular.module('app',['ngRoute']);
 
 (function() {
+    /*JQUERY NOCONFLICT*/
+    var $j = $.noConflict();
 
+    /*ROUTES*/
 	var routeConfig = function($routeProvider){
     	$routeProvider
         .when("/home",{templateUrl:"/pages/home.html"})
@@ -15,7 +18,15 @@ var app = angular.module('app',['ngRoute']);
 	app.config(routeConfig);
 
 
-    var $j = $.noConflict();
+    /*CONTROLLERS*/
+    var NavController = function($scope) {
+        $scope.toggleNav = function() {
+            $j("#myNavbarItems").slideToggle();
+        };
+    };
+
+    app.controller("NavController",NavController);
+/*
     $j(document).ready(function(){
         var toggleNav = function() {
         $j("#myNavbarItems").slideToggle();
@@ -29,12 +40,12 @@ var app = angular.module('app',['ngRoute']);
         $j("#myNavbarHome").click(function(){
             $j("#myNavbarItems").slideToggle();
         });*/
-    });
+   /* });*/
 
 /*
     var toggleNav = function() {
         $j("#myNavbarItems").slideToggle();
     }*/
 
-//41
+//42
 }());
