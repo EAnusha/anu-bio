@@ -8,6 +8,7 @@
 .app {
 	background-size: cover;
 	background-image: url(images/bk.jpg);
+	background-repeat:no-repeat;
 	/*background-color: #000000;*/
 	color: white;
 	font-size: 14px;
