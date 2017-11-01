@@ -26,13 +26,33 @@ var app = angular.module('app',['ngRoute']);
     };
 
     app.controller("NavController",NavController);
+
+//42
+}());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*COMMENTED*/
 /*
     $j(document).ready(function(){
         var toggleNav = function() {
         $j("#myNavbarItems").slideToggle();
         };
 
-        /*Handle Navbar Toggle*/
         /*
         $j("#myNavbarItems").find("a").click(function(){
             $j("#myNavbarItems").slideToggle();
@@ -46,6 +66,3 @@ var app = angular.module('app',['ngRoute']);
     var toggleNav = function() {
         $j("#myNavbarItems").slideToggle();
     }*/
-
-//42
-}());
