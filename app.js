@@ -14,13 +14,27 @@ var app = angular.module('app',['ngRoute']);
 	
 	app.config(routeConfig);
 
-    $(document).ready(function(){
+
+    var $j = $.noConflict();
+    $j(document).ready(function(){
+        var toggleNav = function() {
+        $j("#myNavbarItems").slideToggle();
+        };
+
         /*Handle Navbar Toggle*/
-        $("#myNavbarItems").find("a").click(function(){
-            $("#myNavbarItems").slideToggle();
+        /*
+        $j("#myNavbarItems").find("a").click(function(){
+            $j("#myNavbarItems").slideToggle();
         });
+        $j("#myNavbarHome").click(function(){
+            $j("#myNavbarItems").slideToggle();
+        });*/
     });
 
+/*
+    var toggleNav = function() {
+        $j("#myNavbarItems").slideToggle();
+    }*/
 
 //41
 }());
