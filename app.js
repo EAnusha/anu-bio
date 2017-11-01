@@ -14,8 +14,11 @@ var app = angular.module('app',['ngRoute']);
 	
 	app.config(routeConfig);
 
-    $("#myNavbarItems ul li a").click(function() {
-     $("#myNavbarItems").hide();
+    $(document).ready(function(){
+        /*Handle Navbar Toggle*/
+        $("#myNavbarItems").find("a").click(function(){
+            $("#myNavbarItems").slideToggle();
+        });
     });
 
 
