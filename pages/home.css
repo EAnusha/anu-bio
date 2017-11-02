@@ -1,7 +1,7 @@
 
 .styleHomeHeader {
 	background-size: cover;
-	background-image: url(images/bk.jpg);
+	background-image: url(../images/bk.jpg);
 	background-repeat:no-repeat;
 	background-position: center;
     background-attachment: fixed;
