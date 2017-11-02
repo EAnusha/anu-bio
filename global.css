@@ -6,6 +6,9 @@
     background-position: center;
     background-attachment: fixed;
     background-color: #000000;
+}
+
+.styleDefaultCommon {
     overflow: hidden;
 }
 
