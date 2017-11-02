@@ -18,7 +18,7 @@ var app = angular.module('app',['ngRoute']);
 	app.config(routeConfig);
 
 
-    /*CONTROLLERS*/
+    /*NAV TOGGLE CONTROLLER*/
     var NavController = function($scope) {
         $scope.toggleNav = function() {
             $j("#myNavbarItems").slideToggle();
