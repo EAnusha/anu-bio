@@ -23,6 +23,10 @@ var app = angular.module('app',['ngRoute']);
         $scope.toggleNav = function() {
             $j("#myNavbarItems").slideToggle();
         };
+
+         $scope.toggleNavUp = function() {
+            $j("#myNavbarItems").slideUp();
+        };
     };
 
     app.controller("NavController",NavController);
