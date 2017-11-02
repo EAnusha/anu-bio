@@ -3,7 +3,7 @@
     background-size: cover;
     background-image: url(../images/bk.jpg);
     background-repeat:no-repeat;
-    background-position: center;
+    /*background-position: center;*/
     background-attachment: fixed;
     background-color: #000000;
     padding: 1px 0px 50px 0px;
