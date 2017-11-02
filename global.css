@@ -1,3 +1,12 @@
+
+.styleDefaultBackground {
+    background-size: cover;
+    background-image: url(images/bk.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+}
+
 .styleNavBlock {
 	color: white;
 	font-size: 14px;
