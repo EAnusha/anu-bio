@@ -1,6 +1,6 @@
 var ProfileController = function($scope) {
 	
-	$scope.aboutMeHeader = "About me:"
+	$scope.aboutMeHeader = "ABOUT ME"
     $scope.aboutMe = "I am Anusha, an aspiring Web/Front-End developer. My passion is to excel in creating and building "+
     "web applications with focus on code architecture, modularity and plugability and derive easy maintenance and best "+
     "user experience."   
