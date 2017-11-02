@@ -1,42 +1,10 @@
-/*a {
-	cursor: pointer;
-	text-decoration: underline;
-	font-weight: bold;
-	color: #237c53;
-}*/
-
-.app {
-	background-size: cover;
-	background-image: url(images/bk.jpg);
-	background-repeat:no-repeat;
-	background-position: center;
-    background-attachment: fixed;
-	/*background-color: #000000;*/
+.styleNavBlock {
 	color: white;
 	font-size: 14px;
 	font-family: 'Ubuntu';
 	font-weight: bold;
 }
 
-.home {
-	text-align: center;
-	color: white;
-	font-size: 30px;
-}
-
-/*.nowrap{white-space: nowrap;}*/
-/*
-.styleNavbar {
-	background-color: #39887d;
-	border-color: #39887d;
-	color: white;
-}
-
-.styleNavbarText {
-	color: white;
-	font-size: 16px;
-}
-*/
 #myNavbarMain {
 	background-color: #000000;
 	border-color: #ff9e00;
@@ -55,3 +23,33 @@
 	color: white;
 	font-size: 16px;
 }
+
+
+/*a {
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #237c53;
+}*/
+
+/*.nowrap{white-space: nowrap;}*/
+/*
+.styleNavbar {
+	background-color: #39887d;
+	border-color: #39887d;
+	color: white;
+}
+
+.styleNavbarText {
+	color: white;
+	font-size: 16px;
+}
+*/
+
+/*
+.home {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+*/

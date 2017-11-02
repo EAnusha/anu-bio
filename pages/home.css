@@ -1,9 +1,13 @@
 
 .styleHomeHeader {
+	background-size: cover;
+	background-image: url(images/bk.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+    background-attachment: fixed;
 	font-family: 'Sofia';
     font-size: 50px;
     color: white;
-    /*background:#39887d;*/
     text-align:center;
     margin: 200px -20px 200px -20px;
     padding: 50px 0 50px 0;
