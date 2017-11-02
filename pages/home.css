@@ -1,10 +1,14 @@
 
-.styleHomeHeader {
-	background-size: cover;
-	background-image: url(../images/bk.jpg);
-	background-repeat:no-repeat;
-	background-position: center;
+.styleHomeBackground {
+    background-size: cover;
+    background-image: url(../images/bk.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
     background-attachment: fixed;
+}
+
+
+.styleHomeHeader {
 	font-family: 'Sofia';
     font-size: 50px;
     color: white;
