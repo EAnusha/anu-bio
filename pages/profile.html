@@ -1,7 +1,25 @@
 <section class="styleProfileCommon" ng-controller="ProfileController">
+
 	<div>
 		<h4 class="styleProfileHeader" ng-bind="aboutMeHeader"></h4>
 		<p class="styleProfileContent" ng-bind="aboutMe"></p>
+	</div>
+
+	<div>
+		<h4 class="styleProfileHeader" ng-bind="educationHeader"></h4>
+		<div ng-repeat="rec in edu">
+			<span>{{rec.degree}}</span>
+			<span>{{rec.college}}</span>
+			<span>{{rec.thesis}}</span>
+		</div>
+	</div>
+
+	<div>
+		<h4 class="styleProfileHeader" ng-bind="skillsHeader"></h4>
+		<div ng-repeat="rec in skills">
+			<span>{{skills.section}}</span>
+			<span>{{skills.info}}</span>
+		</div>
 	</div>
 </section>
 
