@@ -2,8 +2,9 @@ var ProfileController = function($scope) {
 	
 	$scope.aboutMeHeader = "ABOUT ME"
     $scope.aboutMe = "I am Anusha, an aspiring Web/Front-End developer. My passion is to excel in creating and building "+
-    "web applications with focus on code architecture, modularity and plugability and derive easy maintenance and best "+
-    "user experience."  
+    "web applications with focus on code architecture, modularity and pluggability to enhance user experience and derive easy maintenance. "+
+    "I have around 3.5 years of experience as an Application Developer at IBM. I recently completed my Master's in Information Systems at "+
+    "La Roche Collge and currently working as Consultant at SDLC Partners in Pittsburgh."  
 
     $scope.eduHeader = "EDUCATION"
     $scope.edu = [{
