@@ -8,17 +8,17 @@
 	<div>
 		<h4 class="styleProfileHeader" ng-bind="eduHeader"></h4>
 		<div ng-repeat="rec in edu">
-			<p>Degree: {{rec.degree}}</p>
-			<p>College: {{rec.college}}</p>
-			<p ng-hide="rec.thesis">Thesis: {{rec.thesis}}</p>
+			<span>{{rec.degree}}</span><br/>
+			<span>{{rec.college}}</span>
+			<p ng-hide=!"rec.thesis">Thesis: {{rec.thesis}}</p>
 		</div>
 	</div>
 
 	<div>
 		<h4 class="styleProfileHeader" ng-bind="skillsHeader"></h4>
 		<div ng-repeat="rec in skills">
-			<span>{{rec.section}}:</span>
-			<p>{{rec.info}}</p>
+			<span>{{rec.section}}:</span><br/>
+			<span>{{rec.info}}</span>
 		</div>
 	</div>
 </section>
