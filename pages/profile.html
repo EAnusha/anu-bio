@@ -10,7 +10,7 @@
 		<div ng-repeat="rec in edu">
 			<span>{{rec.degree}}</span><br/>
 			<span>{{rec.college}}</span>
-			<p ng-hide=!"rec.thesis">Thesis: {{rec.thesis}}</p>
+			<p ng-show="rec.thesis">Thesis: {{rec.thesis}}</p>
 		</div>
 	</div>
 
