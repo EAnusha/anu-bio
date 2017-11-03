@@ -12,13 +12,15 @@
 			<p>{{rec.college}}</p>
 			<p ng-show="rec.thesis">Thesis: {{rec.thesis}}</p>
 			<br/>
+			<br/>
 		</div>
 	</div>
 	<br/><br/>
 	<div>
 		<h4 class="styleProfileHeader" ng-bind="skillsHeader"></h4>
 		<div ng-repeat="rec in skills">
-			<span>{{rec.section}}: </span><span>{{rec.info}}</span>
+			<span class="styleProfileSubHeader">{{rec.section}}: </span><span>{{rec.info}}</span>
+			<br/>
 		</div>
 	</div>
 </section>
