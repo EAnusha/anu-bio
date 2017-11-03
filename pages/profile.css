@@ -20,9 +20,12 @@
 .styleProfileHeader {
 	color: crimson;
 	font-size: 25px;
-	
+}
+
+.styleProfileSubHeader {
+	color: white;
+	font-size: 18px;
 }
 
 .styleProfileContent {
-    
 }

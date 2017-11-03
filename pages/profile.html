@@ -8,7 +8,7 @@
 	<div>
 		<h4 class="styleProfileHeader" ng-bind="eduHeader"></h4>
 		<div ng-repeat="rec in edu">
-			<span>{{rec.degree}}</span><br/>
+			<p>{{rec.degree}}</p>
 			<p>{{rec.college}}</p>
 			<p ng-show="rec.thesis">Thesis: {{rec.thesis}}</p>
 			<br/>
@@ -18,8 +18,7 @@
 	<div>
 		<h4 class="styleProfileHeader" ng-bind="skillsHeader"></h4>
 		<div ng-repeat="rec in skills">
-			<h6>{{rec.section}}:</h6>
-			<span>{{rec.info}}</span><br/>
+			<span>{{rec.section}}: </span><span>{{rec.info}}</span>
 		</div>
 	</div>
 </section>
