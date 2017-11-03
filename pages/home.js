@@ -3,6 +3,14 @@ var HomeController = function($scope) {
 
 app.controller("HomeController",HomeController);
 
+
+
+
+
+
+
+
+
 /*
 
 var BioController = function($scope) {

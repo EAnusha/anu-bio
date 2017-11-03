@@ -42,14 +42,6 @@ var app = angular.module('app',['ngRoute']);
 
 
 
-
-
-
-
-
-
-
-
 /*COMMENTED*/
 /*
     $j(document).ready(function(){

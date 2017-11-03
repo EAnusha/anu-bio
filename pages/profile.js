@@ -60,11 +60,6 @@ app.controller("ProfileController",ProfileController);
 
 
 
-
-
-
-
-
  /*$scope.hideProfileContent = true;
 	$scope.myProfile = function(){
 		    $scope.hideProfileContent = false;
