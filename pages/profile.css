@@ -1,0 +1,31 @@
+.styleProfileCommon {
+    background-color: #000000;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    color: #ff9e00;
+    text-align:left;
+    background-size: cover;
+    background-image: none;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 25px 25px 400px 25px;
+    margin: 0px -20px 0px -20px;
+    /*
+    margin: 200px -20px 200px -20px;
+    padding: 50px 0 50px 0;
+    */
+}
+
+.styleProfileHeader {
+	color: crimson;
+	font-size: 25px;
+}
+
+.styleProfileSubHeader {
+	color: white;
+	font-size: 18px;
+}
+
+.styleProfileContent {
+}

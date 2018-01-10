@@ -1,0 +1,22 @@
+<section class="bio">
+	<div ng-controller="BlogController" class="bio-content">
+		<p ng-bind="intro"></p>
+		<p ng-bind="introTag" class="styleIntroTag"></p>
+		<div>
+			<button class="btn btn-block btn-primary" ng-click="myProfile()">My Profile</button>
+			<p ng-hide="hideProfileContent" ng-bind="shortBio"></p>
+		</div>
+	</div>
+</section>
+
+
+
+<!--
+<section class="bio">
+	<div ng-controller="BioController" class="bio-content">
+		{{desc}}
+		<a ng-href="" ng-hide="isHide('more')" ng-click="bioClickMore()">more</a>
+		<a ng-href="" ng-hide="isHide('less')" ng-click="bioClickLess()">less</a>		
+	</div>
+</section>
+-->
