@@ -27,6 +27,6 @@ app.controller("BioController",BioController);
 
 
 
-
+//Just a sample
 //module.exports = MainController;
 //to excel in Front End web development. Currently focusing on learning Angular framework.."
