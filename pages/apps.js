@@ -1,5 +1,7 @@
 var AppsController = function($scope) {
-	$scope.url="weather.html"
+	$scope.redirectToWeather = function(){
+	alert("Hello");
+	};
 };
 
 app.controller("AppsController",AppsController);
