@@ -1,4 +1,5 @@
 var AppsController = function($scope) {
+	$scope.url="weather.html"
 };
 
 app.controller("AppsController",AppsController);
