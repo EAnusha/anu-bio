@@ -1,6 +1,6 @@
 var AppsController = function($scope) {
 	$scope.redirectToWeather = function(){
-	window.location="#/pages/weather.html";
+	window.location="/pages/weather.html";
 	};
 };
 
