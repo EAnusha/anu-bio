@@ -12,13 +12,13 @@ var app = angular.module('app',['ngRoute']);
     	.when("/apps",{templateUrl:"/pages/apps.html"})
     	.when("/helpfullinks",{templateUrl:"/pages/helpfullinks.html"})
     	.when("/blog",{templateUrl:"/pages/blog.html"})
-        .when("/#/weather",{templateUrl:"/pages/weather.html"})
+        .when("/weather",{templateUrl:"/pages/weather.html"})
     	.otherwise({redirectTo:"/home"});
   	}
 	
 	app.config(routeConfig);
 
-
+/*addeddd*/
     /*NAV TOGGLE CONTROLLER*/
     var NavController = function($scope) {
         $scope.toggleNav = function() {
