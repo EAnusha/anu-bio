@@ -45,6 +45,6 @@ app.controller("BioController",BioController);
 //Just a sample
 =======
 */
->>>>>>> 5543e21ddb51a8888e55b718b7c7f6a9910e343d:pages/home.js
+//>>>>>>> 5543e21ddb51a8888e55b718b7c7f6a9910e343d:pages/home.js
 //module.exports = MainController;
 //to excel in Front End web development. Currently focusing on learning Angular framework.."
