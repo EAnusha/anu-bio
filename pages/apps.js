@@ -1,7 +1,7 @@
 var AppsController = function($scope) {
 	
 $scope.redirectToDraftPage= function () {
-   $location.path('/pages/weather');
+   $location.path('/weather');
 };
 
 };
