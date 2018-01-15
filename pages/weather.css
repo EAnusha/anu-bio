@@ -1,7 +1,8 @@
-.weatherAppsStyle
+#mainStyle input["type=text"]
 {
 
 	background-color: white;
     font-family: 'Ubuntu';
     font-size: 15px;
+    
 }
