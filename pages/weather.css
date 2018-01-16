@@ -1,21 +1,22 @@
 .textStyle 
 {
 
-	background-color: grey;
+	background-color: #ff9e03 ;
     font-family: 'Ubuntu';
     font-size: 15px;
     margin-top: 100px;
-    
+    margin-left: 500px;
 }
 
 .buttonStyle 
 {
 
-	background-color: yellow;
+	background-color: #ff9e00;
     font-family: 'Ubuntu';
     font-size: 15px;
     margin-top: 100px;
-    
+    margin-left: 550px;
+  
     
 }
 
