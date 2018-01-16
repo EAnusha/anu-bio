@@ -10,6 +10,7 @@
 body {
 	background-image: url(../images/weather.jpg);
 	background-attachment: fixed;
-	background-size: contain;
+	
 	background-repeat: no-repeat;
+	background-size:100% 100%;
 }
