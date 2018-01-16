@@ -1,4 +1,4 @@
-.mainStyle input["type=text"]
+.textStyle 
 {
 
 	background-color: grey;
@@ -8,7 +8,7 @@
     
 }
 
-.mainStyle input["type=button"]
+.buttonStyle 
 {
 
 	background-color: yellow;
