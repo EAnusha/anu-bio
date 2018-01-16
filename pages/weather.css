@@ -4,6 +4,17 @@
 	background-color: grey;
     font-family: 'Ubuntu';
     font-size: 15px;
+
+    
+}
+
+#mainStyle input["type=button"]
+{
+
+	background-color: yellow;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    
     
 }
 
