@@ -1,6 +1,6 @@
-var AppsController = function($scope) {
+var WeatherController = function($scope) {
 	
 
 };
 
-app.controller("AppsController",AppsController);
+app.controller("AppsController",WeatherController);
