@@ -3,4 +3,4 @@ var WeatherController = function($scope) {
 
 };
 
-app.controller("WeatherController",WeatherController);
+app.controller("WeatherController",WeatherController); 
