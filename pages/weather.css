@@ -33,11 +33,12 @@
 body{margin:0;height:100%;}
 canvas{
     position:absolute;top:0;left:0
-   background-image: linear-gradient(top, rgb(0,191,255) 90%, rgb(23,82,145) 84%);
+   /*background-image: linear-gradient(top, rgb(0,191,255) 90%, rgb(23,82,145) 84%);
     background-image: -o-linear-gradient(top, rgb(0,191,255) 90%, rgb(23,82,145) 84%);
     background-image: -moz-linear-gradient(top, rgb(0,191,255) 90%, rgb(23,82,145) 84%);
     background-image: -webkit-linear-gradient(top, rgb(0,191,255) 90%, rgb(23,82,145) 84%);
     background-image: -ms-linear-gradient(top, rgb(0,191,255) 90%, rgb(23,82,145) 84%);
+    */
 
     background-image: -webkit-gradient(
         linear,
