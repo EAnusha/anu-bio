@@ -104,6 +104,8 @@ function init() {
     snow();
 };
 
+document.getElementById("the-textbox").style.display = "inline";
+
 canvas.addEventListener("mousemove", function(e) {
     mX = e.clientX,
     mY = e.clientY
