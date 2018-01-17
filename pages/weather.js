@@ -104,7 +104,7 @@ function init() {
     snow();
 };
 
-document.getElementById("the-textbox").style.display = "inline";
+document.getElementById("the-textbox").style.display = "show";
 
 canvas.addEventListener("mousemove", function(e) {
     mX = e.clientX,
