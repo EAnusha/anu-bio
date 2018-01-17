@@ -44,6 +44,6 @@ canvas{
         right top,
         left bottom,
         color-stop(0, rgb(255,0,0)),
-        color-stop(50, rgb(173,255,47))
+        color-stop(50, rgb(0,191,255))
     );
 }
