@@ -43,7 +43,7 @@ canvas{
         linear,
         left bottom,
         left top,
-        color-stop(0, rgb(105,173,212)),
+        color-stop(0, rgb(255,0,0)),
         color-stop(0.84, rgb(23,82,145))
     );
 }
